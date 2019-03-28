@@ -11,7 +11,7 @@
 static const int RXPin = 15, TXPin = 14;
 String hostPort = "*.*.*.*,*";  // 111.215.222.147,18777   udp服务器的ip地址和端口号
 static const uint32_t GPSBaud = 9600;
-#define ENA 13 //继电器连接在8266的GPIO12上
+#define ENA 13 //GPS使能
 // The TinyGPS++ object
 TinyGPSPlus gps;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
